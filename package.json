@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "mocha ./tests/* --exit",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "mocha ./test/* --exit",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
